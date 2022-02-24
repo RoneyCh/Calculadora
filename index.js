@@ -25,6 +25,7 @@ const criaCalculadora = () => {
         },
         pressedToDisplay(valor) {
             this.display.value += valor;
+            this.display.focus();
         },
         
         clearDisplay() {
